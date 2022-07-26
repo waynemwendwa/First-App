@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="homeBtnClicked"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:onClick="aboutBtnClicked"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About" />
+
+    <Button
+        android:onClick="servicesBtnClicked"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services" />
+
+    <Button
+        android:onClick="callBtnClicked"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call us" />
+
+    <TextView
+        android:onClick="signInClicked"
+        android:textSize="18dp"
+        android:textColor="#3F53B5"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+    <TextView
+        android:onClick="signUpClicked"
+        android:textSize="18dp"
+        android:textColor="#3F4FB5"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No account? Sign up" />
+</LinearLayout>
